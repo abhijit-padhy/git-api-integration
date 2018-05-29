@@ -1,0 +1,24 @@
+<!-- {{homeMessage}} -->
+<div class="home-wrapper">
+    <div>
+        <div class="home-title" style="display: inline-block;">Members Data</div>
+    </div>
+    <div class="table-container">
+            <div class="login-box list-container list-home">
+                <ul>
+                    <li ng-repeat="key in keys">
+                        <span>{{key}} : </span>
+                        <span>{{data[key]}}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-box list-container list-home">
+                <div><h3>Repo List </h3></div>
+                <ul>
+                    <li ng-repeat="row in repos">
+                        <span>{{row.url}}</span>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</div>

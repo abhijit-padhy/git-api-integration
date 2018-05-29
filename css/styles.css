@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    font-family: 'Raleway', sans-serif;
+    /* background: #2e9ce6; */
+    padding: 0;
+}
+.navbar{
+    border-radius: 0;
+}
+
+
+.login {
+    border: 1px solid #2885c4;
+}
+.beforeLog {
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    padding: 17px;
+    display: block;
+}
+.afterLog {
+    display: none;
+}
+.login-box {
+    position: relative;
+    width: auto;
+    margin: 1px;
+    padding: 14px;
+    text-align: center;
+    background: #13cb08;
+    border-radius: 8px;
+}
+.login-box div {
+    padding: 5px;
+}
+.login-box input,
+.login-box button {
+    width: 180px;
+}
+.err-message{
+    color: #982f09;
+}
+.home-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.display tr span{
+    /* display: inline-block;
+    width: 22%; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.display th span{
+    border: 1px solid #ccc;
+}
+.display td, .display th{
+    border: 1px solid #ccc;
+}
+.display .section{
+    text-align: center;
+}
+
+table.dataTable tbody th, table.dataTable tbody td,table.dataTable thead th, table.dataTable thead td{
+    padding: 0px;
+}
+.row{
+    margin: 0;
+}
+table.dataTable tr th:nth-child(1),table.dataTable tr th:nth-child(2),
+table.dataTable tr th:nth-child(4),table.dataTable tr th:nth-child(5)
+,table.dataTable tr td:first-child,table.dataTable tr td:last-child{
+    color: #2e93d1;
+}
+.btn{
+    background: green;
+    color: #fff;
+    margin: 2px;
+    padding: 3px 6px;
+}
+.active{
+    color:#fff;
+}
+.list-container ul li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background: #1da016;
+    border-radius: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list-container ul li:hover{
+    background: #1e671a;
+}
+.list-home ul li span:first-child{
+    color: #121213;
+    font-weight: bold;
+    text-transform: uppercase;
+}
