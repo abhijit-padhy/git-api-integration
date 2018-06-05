@@ -1,0 +1,23 @@
+<div class="home-wrapper">
+  <div>
+      <div class="home-title" style="display: inline-block;">Members Data</div>
+  </div>
+  <div class="table-container">
+          <div class="login-box list-container list-home">
+              <ul>
+                  <li *ngFor="let key of keys">
+                      <span>{{key}} : </span>
+                      <span>{{userdata[key]}}</span>
+                  </li>
+              </ul>
+          </div>
+          <div class="login-box list-container list-home">
+              <div><h3>Repo List </h3></div>
+              <ul>
+                  <li *ngFor="let row of repos">
+                      <span>{{row.url}}</span>
+                  </li>
+              </ul>
+          </div>
+  </div>
+</div>
